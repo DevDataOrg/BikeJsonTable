@@ -12,6 +12,9 @@
 		A30511BB2253D422003BB38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30511B92253D422003BB38D /* Main.storyboard */; };
 		A30511BD2253D423003BB38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30511BC2253D423003BB38D /* Assets.xcassets */; };
 		A30511C02253D423003BB38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30511BE2253D423003BB38D /* LaunchScreen.storyboard */; };
+		A30511C82253D571003BB38D /* bikeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30511C72253D571003BB38D /* bikeTableView.swift */; };
+		A30511CA2253D5C4003BB38D /* BikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30511C92253D5C4003BB38D /* BikeModel.swift */; };
+		A30511CC2253D640003BB38D /* bikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30511CB2253D640003BB38D /* bikeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A30511BC2253D423003BB38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30511BF2253D423003BB38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A30511C12253D423003BB38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30511C72253D571003BB38D /* bikeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikeTableView.swift; sourceTree = "<group>"; };
+		A30511C92253D5C4003BB38D /* BikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeModel.swift; sourceTree = "<group>"; };
+		A30511CB2253D640003BB38D /* bikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bikeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		A30511B42253D422003BB38D /* TableJsonDev */ = {
 			isa = PBXGroup;
 			children = (
+				A30511CB2253D640003BB38D /* bikeCell.swift */,
+				A30511C92253D5C4003BB38D /* BikeModel.swift */,
+				A30511C72253D571003BB38D /* bikeTableView.swift */,
 				A30511B52253D422003BB38D /* AppDelegate.swift */,
 				A30511B72253D422003BB38D /* ViewController.swift */,
 				A30511B92253D422003BB38D /* Main.storyboard */,
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30511B82253D422003BB38D /* ViewController.swift in Sources */,
+				A30511CC2253D640003BB38D /* bikeCell.swift in Sources */,
+				A30511C82253D571003BB38D /* bikeTableView.swift in Sources */,
+				A30511CA2253D5C4003BB38D /* BikeModel.swift in Sources */,
 				A30511B62253D422003BB38D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
